@@ -35,12 +35,14 @@
         "eslint-plugin-import": "^2.14.0"
     },
     "bin": {
-        "brain-games": "dist/bin/brain-games.js"
+        "brain-games": "dist/bin/brain-games.js",
+        "brain-event": "dist/bin/brain-even.js"
     },
     "files": [
         "dist"
     ],
     "dependencies": {
+        "random": "^2.0.12",
         "readline-sync": "^1.4.9"
     }
 }

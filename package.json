@@ -1,48 +1,48 @@
 {
-    "name": "@vdiachenko/brain-games",
-    "version": "1.2.2",
-    "description": "Hexlet project",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "babel-node": "babel-node",
-        "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-        "prepublishOnly": "npm run build",
-        "eslint": "eslint"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/vdiachenko/project-lvl1-s328.git"
-    },
-    "keywords": [
-        "hexlet",
-        "brain",
-        "games"
-    ],
-    "author": "Vlad Diachenko",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/vdiachenko/project-lvl1-s328/issues"
-    },
-    "homepage": "https://github.com/vdiachenko/project-lvl1-s328#readme",
-    "devDependencies": {
-        "babel-cli": "^6.26.0",
-        "babel-core": "^6.26.3",
-        "babel-eslint": "^8.2.6",
-        "babel-preset-env": "^1.7.0",
-        "babel-preset-stage-0": "^6.24.1",
-        "eslint": "^5.4.0",
-        "eslint-config-airbnb-base": "^13.1.0",
-        "eslint-plugin-import": "^2.14.0"
-    },
-    "bin": {
-        "brain-games": "dist/bin/brain-games.js",
-        "brain-even": "dist/bin/brain-even.js"
-    },
-    "files": [
-        "dist"
-    ],
-    "dependencies": {
-        "random": "^2.0.12",
-        "readline-sync": "^1.4.9"
-    }
+  "name": "@vdiachenko/brain-games",
+  "version": "1.2.3",
+  "description": "Hexlet project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdiachenko/project-lvl1-s328.git"
+  },
+  "keywords": [
+    "hexlet",
+    "brain",
+    "games"
+  ],
+  "author": "Vlad Diachenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdiachenko/project-lvl1-s328/issues"
+  },
+  "homepage": "https://github.com/vdiachenko/project-lvl1-s328#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "random": "^2.0.12",
+    "readline-sync": "^1.4.9"
+  }
 }

@@ -1,9 +1,7 @@
 import random from 'random';
 import gameEngine from '../game-engine';
 
-const config = {
-  description: 'What is the result of the expression?',
-};
+const description = 'What is the result of the expression?';
 
 const operations = [
   {
@@ -36,4 +34,4 @@ const game = () => {
   };
 };
 
-export default () => gameEngine(game, config);
+export default () => gameEngine(game, description);

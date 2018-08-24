@@ -2,9 +2,7 @@ import random from 'random';
 import gameEngine from '../game-engine';
 
 const isEven = num => num % 2 === 0;
-const config = {
-  description: 'Answer "yes" if number even otherwise answer "no".',
-};
+const description = 'Answer "yes" if number even otherwise answer "no".';
 
 const game = () => {
   const question = random.int(1, 10);
@@ -16,4 +14,4 @@ const game = () => {
   };
 };
 
-export default () => gameEngine(game, config);
+export default () => gameEngine(game, description);

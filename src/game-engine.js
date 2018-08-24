@@ -2,9 +2,9 @@ import readlineSync from 'readline-sync';
 
 const roundsCount = 3;
 
-export default (game, config) => {
+export default (game, description = '') => {
   console.log('Welcome to the Brain Games!');
-  console.log(config.description);
+  console.log(description);
 
   const username = readlineSync.question('\nMay I have your name? ', {
     defaultInput: 'anonymous',

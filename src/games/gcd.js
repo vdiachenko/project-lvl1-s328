@@ -16,9 +16,7 @@ const getGCD = (a, b) => {
 
   return a;
 };
-const config = {
-  description: 'Find the greatest common divisor of given numbers.',
-};
+const description = 'Find the greatest common divisor of given numbers.';
 
 const game = () => {
   const num1 = random.int(0, 10);
@@ -32,4 +30,4 @@ const game = () => {
   };
 };
 
-export default () => gameEngine(game, config);
+export default () => gameEngine(game, description);

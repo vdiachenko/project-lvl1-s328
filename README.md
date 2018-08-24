@@ -13,3 +13,6 @@
 
 ### brain-gcd
 [![asciicast](https://asciinema.org/a/f9liPjHOiUcw6CmNFfFOm9wAu.png)](https://asciinema.org/a/f9liPjHOiUcw6CmNFfFOm9wAu)
+
+### brain-balance
+[![asciicast](https://asciinema.org/a/XRz7xdoZBMFUKAoc8zV2u1Wtr.png)](https://asciinema.org/a/XRz7xdoZBMFUKAoc8zV2u1Wtr)

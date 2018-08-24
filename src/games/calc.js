@@ -1,5 +1,5 @@
 import random from 'random';
-import GameEngine from '../game-engine';
+import gameEngine from '../game-engine';
 
 const config = {
   description: 'What is the result of the expression?',
@@ -36,4 +36,4 @@ const game = () => {
   };
 };
 
-export default () => GameEngine(game, config);
+export default () => gameEngine(game, config);

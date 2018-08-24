@@ -1,5 +1,5 @@
 import random from 'random';
-import GameEngine from '../game-engine';
+import gameEngine from '../game-engine';
 
 const isEven = num => num % 2 === 0;
 const config = {
@@ -16,4 +16,4 @@ const game = () => {
   };
 };
 
-export default () => GameEngine(game, config);
+export default () => gameEngine(game, config);

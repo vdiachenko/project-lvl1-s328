@@ -1,5 +1,5 @@
 import random from 'random';
-import GameEngine from '../game-engine';
+import gameEngine from '../game-engine';
 
 const getGCD = (a, b) => {
   if (a === 0) {
@@ -32,4 +32,4 @@ const game = () => {
   };
 };
 
-export default () => GameEngine(game, config);
+export default () => gameEngine(game, config);

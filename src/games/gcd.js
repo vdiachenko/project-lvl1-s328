@@ -24,7 +24,7 @@ const game = () => {
   const num1 = random.int(0, 10);
   const num2 = random.int(0, 10);
   const question = `${num1} ${num2}`;
-  const answer = getGCD(num1, num2);
+  const answer = getGCD(num1, num2).toString();
 
   return {
     question,

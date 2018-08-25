@@ -2,9 +2,13 @@ import random from 'random';
 import gameEngine from '../game-engine';
 
 const isPrime = (num) => {
-  for (let i = num - 1; i > 1; i -= 1) {
+  for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
       return false;
+    }
+
+    if (i > Math.sqrt(num)) {
+      return true;
     }
   }
 

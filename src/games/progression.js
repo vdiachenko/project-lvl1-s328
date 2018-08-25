@@ -11,11 +11,11 @@ const generateProgression = (start, step, length) => {
   return result;
 };
 const description = 'What number is missing in this progression?';
+const length = 10;
 
 const game = () => {
   const start = random.int(0, 10);
   const step = random.int(1, 10);
-  const length = 10;
   const progression = generateProgression(start, step, length);
   const missingElIndex = random.int(0, progression.length - 1);
   const missingEl = progression[missingElIndex];
